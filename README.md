@@ -4,4 +4,4 @@ Nhóm tụi mình đã tách task NLI ra thành 2 phần là evidence retrieval 
 
 Với evidence retrieval thì chúng mình dựa vào ensemble kết hợp nhiều pretrained model nhưng không tiến hành việc transfer learning.
 
-Với classification tụi mình dùng pretrained model là xlm-roberta và tiến hành transfer learning trên đó để phân loại và trong file classification_train_inference ở dưới đã có phần cmt ở dưới là inference.
+Với classification tụi mình dùng pretrained model là xlm-roberta và tiến hành fine-tune trên đó để phân loại và trong file classification_train_inference ở dưới đã có phần cmt ở dưới là inference.
